@@ -14,7 +14,7 @@ public class LazySingleton {
     private static LazySingleton instance = null;
 
 //    v1.0
-//    public static LazySingleton getInstance() {
+//    public static LazySingleton getLazyDoubleCheckInstance() {
 //        if (instance == null) {
 //            instance = new LazySingleton();
 //        }
